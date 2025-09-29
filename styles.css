@@ -1,0 +1,146 @@
+
+body {
+    background-color: black;
+    color: darkgoldenrod;
+}
+
+
+
+h3 {
+    color: darkgoldenrod;
+}
+
+p{
+    font-size: 16px;
+}
+
+#margit {
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+#theomenking{
+    border: 3px solid white;
+
+}
+
+#godrick
+
+{
+    color: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+    padding: 5px;
+}
+#thegrafted {
+    border: 3px solid darkgoldenrod;
+}
+#rennala
+{
+    color: dimgray;
+    border: 1px solid dimgray;
+    padding: 5px;
+}
+
+#thequeen
+{
+    border: 3px solid dimgrey;
+}
+#radahn
+
+{
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+#thestarscourge
+
+{
+    border: 3px solid red;
+}
+
+#maliketh
+
+{
+    color: darkred;
+    border: 3px solid darkred;
+    padding: 5px;
+}
+
+#beast
+
+{
+border: 3px solid darkred;
+
+}
+
+#samurai
+{
+    color: orangered;
+}
+
+
+#samurai-image
+
+{
+    border: 3px solid orangered;
+}
+
+#astrologer
+{
+    color: lightskyblue;
+}
+
+#astrologer-image
+
+{
+    border: 3px solid lightskyblue;
+}
+
+#vagabond-image
+{
+    border: 3px solid darkgoldenrod;
+}
+
+#warrior
+{
+    color: dodgerblue;
+}
+
+#warrior-image
+{
+    border: 3px solid dodgerblue;
+}
+
+#hero
+{
+    color: saddlebrown;
+}
+
+#hero-image
+{
+    border: 3px solid saddlebrown;
+
+}
+
+#prisoner
+{
+    color: red;
+}
+#prisoner-image
+
+{
+    border: 3px solid red;
+}
+
+#confessor
+
+{
+    color: yellow;
+}
+
+#confessor-image
+{
+    border: 3px solid yellow;
+}
