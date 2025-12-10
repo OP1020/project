@@ -3,6 +3,19 @@ body{
 
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 5px
+}
+nav a{
+    transition: color 0.4s ease-in-out;
+    color: darkgoldenrod;
+}
+
+nav a:hover{
+    color: #D54600
+}
 
 .boss-grid {
     display: grid;
@@ -18,7 +31,7 @@ body{
     overflow: hidden;
     text-align: center;
     color: #eee;
-    font-family: 'Cinzel', serif; /* optional Elden Ring-style font */
+    font-family: 'Cinzel', serif;
     transition: 0.3s ease-in-out;
 }
 
