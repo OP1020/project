@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 5px
+}
+nav a{
+    transition: color 0.4s ease-in-out;
+    color: darkgoldenrod;
+}
+
+nav a:hover{
+    color: #D54600
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: #f0e6d2;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+
+}
+
+p {
+    color: darkgoldenrod;
+}
+
+
+
+.class-image {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
+
+.description {
+    max-width: 600px;
+}
+
+.general-info {
+    padding: 2rem;
+    border-top: 2px solid darkgoldenrod;
+}
+
+h2 {
+    margin-top: 0;
+    color: #ffcc00; /* Highlight color */
+}
+
+p {
+    line-height: 1.6;
+}
+
+.top-classes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.class-thumb {
+    width: 250px;
+    border-radius: 10px;
+}
