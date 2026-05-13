@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="optional.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Items</title>
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    </head>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="bosses.html">Major Bosses</a>
+        <a href="classes.html">Classes</a>
+        <a href="items.html">Items</a>
+    </nav>
+    <body>
+        <div id="item-gallery">
+            <img src="items/ER_Icon_Tool_exalted_flesh.webp" height="200" width="200" class = "item-image"/>
+            <img src="items/ER_Icon_Tool_pickled_turtle_neck.webp" height="200" width="200" class = "item-image"/>
+            <img src="items/ER_Icon_Talisman_Shard_of_Alexander.webp" height="200" width="200" class = "item-image"/>
+            <img src="items/ER_Icon_Key_Item_stonesword_key.webp" height="200" width="200" class = "item-image"/>
+            <img src="items/ER_Icon_Tool_glass_shard.webp" height="200" width="200" class = "item-image"/>
+            <img src="items/ER_Icon_material_aeonian_butterfly.webp" height="200" width="200" class = "item-image"/>
+        </div>
+
+        <form id="item-form">
+
+            <input
+                    type="text"
+                    id="item-name"
+                    placeholder="Name of Item"
+                    required
+            >
+
+            <input
+                    type="text"
+                    id="item-location"
+                    placeholder="Region of Item"
+                    required
+            >
+
+            <button type="submit">
+                Add Item
+            </button>
+
+        </form>
+
+        <div id="items-container"></div>
+
+        <script src="optional.js"></script>
+    </body>
+</html>

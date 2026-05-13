@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 5px
+}
+nav a{
+    transition: color 0.4s ease-in-out;
+    color: darkgoldenrod;
+}
+
+nav a:hover{
+    color: #D54600
+}
+
+.container div{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: auto;
+
+}
+
+#item-gallery{
+    margin: 25px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 4px;
+}
+
+form {
+    width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+
+    background: rgba(20, 20, 20, 0.85);
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 15px 0;
+
+    background: #111;
+    color: darkgoldenrod;
+
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: darkgoldenrod;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+
+    background: darkgoldenrod;
+    color: black;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: gray;
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+    border-color: darkgoldenrod;
+}
+
+h2, p{
+    color: darkgoldenrod;
+}
